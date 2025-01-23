@@ -12,8 +12,10 @@ book:
 
   chapters:
     - index.qmd
-    - chapter01.qmd
+    - chapter1.qmd
     - part: "Розділ I. База"
+      chapters: 
+        - chapter2.qmd
 format:
   html:
     toc-title: Зміст
