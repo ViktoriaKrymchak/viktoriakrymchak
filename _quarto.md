@@ -1,0 +1,31 @@
+---
+project:
+  type: book
+  output-dir: docs
+
+lang: uk-UA
+
+number-depth: 1
+
+book:
+  title: "100 запитань (і відповідей) про тести та вимірювання"
+  author: "Брюс Б. Фрей"
+  date: "2025-01-25"
+
+chapters:
+  - index.qmd
+  - chapter1.qmd
+
+  - part: "Розділ I. База"
+    chapters:
+      - chapter2.qmd
+
+format:
+  html:
+    toc-title: "Зміст"
+    theme:
+      - brand
+    css: styles.css
+  pdf:
+    documentclass: scrreprt
+---
